@@ -1,0 +1,93 @@
+[
+    {
+      "base": "1",
+      "sauce": 2,
+      "cheese": 3,
+      "Veggies": 4
+    },
+    {
+      "base": 2,
+      "sauce": 1,
+      "cheese": 4,
+      "Veggies": 3
+    },
+    {
+      "base": 3,
+      "sauce": 2,
+      "cheese": 2,
+      "Veggies": 5
+    },
+    {
+      "base": 1,
+      "sauce": 3,
+      "cheese": 1,
+      "Veggies": 4
+    },
+    {
+      "base": 2,
+      "sauce": 1,
+      "cheese": 3,
+      "Veggies": 2
+    },
+    {
+      "base": 3,
+      "sauce": 2,
+      "cheese": 4,
+      "Veggies": 3
+    },
+    {
+      "base": 1,
+      "sauce": 1,
+      "cheese": 2,
+      "Veggies": 5
+    },
+    {
+      "base": 2,
+      "sauce": 3,
+      "cheese": 3,
+      "Veggies": 4
+    },
+    {
+      "base": 3,
+      "sauce": 1,
+      "cheese": 2,
+      "Veggies": 3
+    },
+    {
+      "base": 1,
+      "sauce": 2,
+      "cheese": 4,
+      "Veggies": 2
+    },
+    {
+        "base": 3,
+        "sauce": 2,
+        "cheese": 4,
+        "Veggies": 3
+      },
+      {
+        "base": 1,
+        "sauce": 1,
+        "cheese": 2,
+        "Veggies": 5
+      },
+      {
+        "base": 2,
+        "sauce": 3,
+        "cheese": 3,
+        "Veggies": 4
+      },
+      {
+        "base": 3,
+        "sauce": 1,
+        "cheese": 2,
+        "Veggies": 3
+      },
+      {
+        "base": 1,
+        "sauce": 2,
+        "cheese": 4,
+        "Veggies": 2
+      }
+  ]
+  

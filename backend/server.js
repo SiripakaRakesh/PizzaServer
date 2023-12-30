@@ -21,7 +21,10 @@ const io = new Server(server, {
 // Update the MongoDB URI in your application
 const mongoose = require('mongoose');
 const mongoURI = 'mongodb+srv://lungchuingam:22Dec2002@users.vl63zey.mongodb.net/';
-mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(mongoURI, { 
+    useNewUrlParser: true,
+    useUnifiedTopology: true 
+});
 
 const db = mongoose.connection;
 
@@ -55,7 +58,7 @@ const payPizzaController = require('./controllers/PayPizzaController');
 const payMorePizzaController = require('./controllers/PayMorePizzaController')
 const pizzaOrderStatusController = require('./controllers/PizzaOrderStatusController');
 const User = require('./models/users/user');
-const email = require('./pages/Email');
+const email = require('./services/Email');
 
 
 io.on('connection', (socket) => {

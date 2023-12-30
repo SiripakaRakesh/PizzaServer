@@ -1,6 +1,5 @@
 const AddToCart = require("../models/Pizza/AddToCart");
 
-
 module.exports.addToCart = async (req, res) => {
   {
     try {
@@ -38,3 +37,16 @@ module.exports.deleteCartPizzaId = async (req, res) => {
     res.send(result);
   }
 }
+
+module.exports.clearCart = async (req, res) => {
+  const userId = req.params.userId; 
+
+  try {
+    const result = await AddToCart.deleteMany({ userId });
+    res.send(result);
+  } catch (error) {
+    console.error("Error:", error);
+    res.status(500).send({ error: "Internal Server Error" });
+  }
+}
+

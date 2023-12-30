@@ -21,7 +21,7 @@ module.exports.deleteManyPayPizzaItemTotal=async(req,res)=>{
     {
         try {
           const { total } = req.params;
-          let result = await PayManyPizza.deleteOne({ total: total });
+          let result = await PayManyPizza.deleteMany({ total: total });
           res.send(result);
         } catch (error) {
           console.log(error);

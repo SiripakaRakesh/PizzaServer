@@ -32,7 +32,7 @@ module.exports.verify=(req,res)=>{
     let body =req.body.response.razorpay_order_id + "|" +req.body.response.razorpay_payment_id;
 
     function hmac_sha256(data, secret) {
-        const hmac = Crypto.createHmac('lucky', secret);
+        const hmac = Crypto.createHmac('sha256', secret);
         hmac.update(data.toString());
         return hmac.digest('hex');
       }
